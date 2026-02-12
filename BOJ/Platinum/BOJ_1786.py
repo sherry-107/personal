@@ -26,7 +26,6 @@ for i in arr:
     i = i + 1
     arr2.append(i)
     
-
 print(*arr2)
             
 
