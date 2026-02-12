@@ -25,3 +25,4 @@ for tc in range(1, t+1):
         score_arr.append(score_sum)
     
     print(f'#{tc}', max(score_arr) - min(score_arr))
+    
