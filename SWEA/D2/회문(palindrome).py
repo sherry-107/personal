@@ -21,3 +21,4 @@ for tc in range(1, t+1):
         for j in range(n-m+1):
             if arr2[i][j:j+m] == arr2[i][j:j+m][::-1]:
                 print(f'#{tc}', arr2[i][j:j+m])
+                
