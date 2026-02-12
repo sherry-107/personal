@@ -32,3 +32,4 @@ for tc in range(1, t+1):
                 sum_v += 1
 
     print(f'#{tc}', sum_v)
+    
