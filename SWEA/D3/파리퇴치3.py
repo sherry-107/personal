@@ -33,5 +33,3 @@ for tc in range(1, t+1):
             max_v = max(max_v, v1, v2)
 
     print(f'#{tc}', max_v)
-
-            
