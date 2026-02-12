@@ -34,3 +34,4 @@ for tc in range(1, t+1):
         print(f'#{tc}', result)
     else:
         print(f'#{tc}', 0)
+        
