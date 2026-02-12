@@ -33,6 +33,7 @@ for tc in range(1, t+1):
             if arr[x][y] == 1:
                 num += 1
                 delta_func(arr, x, y)
+                
     print(num)
 
 
