@@ -29,4 +29,5 @@ for tc in range(1, t+1):
                 result = 'error'
         else:
             stack.append(i)
+            
     print(f'#{tc}', result)
