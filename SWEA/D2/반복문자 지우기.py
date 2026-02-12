@@ -13,4 +13,5 @@ for tc in range(1, t+1):
             else:
                 stack.append(i)
 
+
     print(f'#{tc}', len(stack))
