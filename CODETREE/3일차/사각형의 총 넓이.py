@@ -13,8 +13,8 @@ dat = [[0]*250 for i in range(250)]
 cnt = 0
 
 for i in range(n):
-    for x in range(x1[i], x2[i]):
-        for y in range(y1[i], y2[i]):
+    for x in range(x1[i] + 100, x2[i] + 100):
+        for y in range(y1[i] + 100, y2[i] + 100):
             if dat[x][y] == 0:
                 cnt += 1
             dat[x][y] = 1
