@@ -31,3 +31,4 @@ for tc in range(1, t+1):
             stack.append(i)
             
     print(f'#{tc}', result)
+    
