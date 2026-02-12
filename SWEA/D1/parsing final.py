@@ -3,6 +3,7 @@ text = ['GOLDABCGOLD', 'HELLOWORLD', 'WHITEGOLD']
 cnt = 0
 index = 0
 
+
 while index < len(text):
     find_idx = text[index].find('GOLD')
 
