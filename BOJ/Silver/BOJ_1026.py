@@ -12,4 +12,5 @@ for i in range(t):
     idx = b_arr.index(max_v)
     b_arr[idx] = -1
 
+
 print(S)
